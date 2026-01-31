@@ -7,6 +7,7 @@ function isOddOrEven(number) {
     return 'odd';
   }
 }
+
 function sum(a, b) {
   return a + b;
 }
@@ -19,3 +20,15 @@ function sum(a, b) {
   return a * b;
 }
 sum(2,4)
+
+function canVote(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet('World'));
