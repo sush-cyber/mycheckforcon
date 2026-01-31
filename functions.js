@@ -7,3 +7,15 @@ function isOddOrEven(number) {
     return 'odd';
   }
 }
+function sum(a, b) {
+  return a + b;
+}
+sum(2,4)
+function sum(a, b) {
+  return a - b;
+}
+sum(4,2)
+function sum(a, b) {
+  return a * b;
+}
+sum(2,4)
