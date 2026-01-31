@@ -7,3 +7,14 @@ function isOddOrEven(number) {
     return 'odd';
   }
 }
+function canVote(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet('World'));
